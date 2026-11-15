@@ -1,0 +1,33 @@
+# ---------- 私有凭据（真实 WiFi 密码 / OneNet Token） ----------
+task/app_secrets.h
+
+# ---------- 迁移前的完整备份快照 ----------
+backup_pre_custom_rtos/
+
+# ---------- 调试脚本、抓包日志与厂商工具（含真实 Token / 大文件） ----------
+tools/
+
+# ---------- Keil 构建产物 ----------
+MDK-ARM/task6/
+MDK-ARM/DebugConfig/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.bak
+MDK-ARM/*.bak_*
+MDK-ARM/*.lst
+MDK-ARM/*.log
+
+# ---------- 通用编译产物 ----------
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.dep
+*.exe
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
